@@ -91,29 +91,44 @@ content:
           
           카피킬러 데이터 수집 파이프라인 구축, 운영
           
-          수집 API, OCR API 등 Spring boot 기반의 백엔드 API 개발  
+          수집 API, OCR API 등 Spring boot 기반의 백엔드 API 개발
+          
+          사내 기술세미나 진행자
+          
+          2020년 올해의 우수사원 선정
 
-  - title: 역량
+  - title: 역량 & 기술
     layout: list
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any
         # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: 데브옵스
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: 기술
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: IDC / AWS 인프라 운영
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: API 개발
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: 기술 보안
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+
+  - title:
     layout: list
     content:
       - layout: left
