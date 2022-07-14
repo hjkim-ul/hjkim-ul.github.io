@@ -16,7 +16,7 @@ email: dhakdd@naver.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 #twitter_username: jekyllrb
@@ -75,13 +75,24 @@ content:
     content:
       - layout: left
         title: 무하유
+        link: www.muhayu.com
         sub_title: 데브옵스 엔지니어 & 백엔드 개발자
         caption: 2017.03 - present)
-        link: www.muhayu.com
         quote: >
-          카피킬러를 필두로한 에듀테크 및 HR 서비스를 제공하는 AI 기술기업
+          카피킬러등의 에듀테크 서비스 및 HR 서비스를 제공하는 AI 기술기업
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          화상면접 서비스의 AWS EKS 기반 운영 인프라 설계, 안정적이고 확장에 용이한 인프라 구축
+          
+          teamcity, argoCD를 이용한 CI/CD 파이프라인 구축, 개발자들의 생산성 증대
+          
+          모놀리식 아키텍처로 10년동안 개발된 카피킬러를 MSA로 분리, 쌓아 놨던 기술부채 청산
+          
+          MariaDB 운영 및 장애대응
+          
+          카피킬러 데이터 수집 파이프라인 구축, 운영
+          
+          수집 API, OCR API 등 Spring boot 기반의 백엔드 API 개발  
+
   - title: 역량
     layout: list
     content:
@@ -117,7 +128,9 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       회사에 도움이 되는 활동을 위주로 하고 있습니다.
+      
       <a href="https://www.youtube.com/watch?v=uXQMoJ1P_os">무하유 홍보 영상 1</a>
+      
       <a href="https://www.youtube.com/watch?v=PN9ScKLvRLg">무하유 홍보 영상 2</a>
       
 
