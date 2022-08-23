@@ -84,7 +84,7 @@ content:
           
           모놀리식 아키텍처로 10년동안 개발된 카피킬러를 MSA로 분리, 쌓아 놨던 기술부채 청산
           
-          MariaDB 운영 및 장애대응
+          MariaDB 운영 및 레플리카 구성, 장애대응
           
           카피킬러 데이터 수집 파이프라인 구축, 운영
           
@@ -117,14 +117,13 @@ content:
         # other value (or no value) means no border will be displayed
         title: IDC / AWS 인프라 운영
         description: | # this will include new lines to allow paragraphs
-          100대의 물리서버와 500대의 가상서버를 운영, ansible을 이용해 설정 관리 및 작업 관리
-          
-          XCP-ng(xenserver를 포크한 oss)를 이용한 가상서버 운영하며 GPU passthrough, SR-IOV 등 기술을 연구하고 적용
-          
           AWS VPC, NAT gateway, VPN 등 활용하여 하이브리드 인프라에서의 네트워크 설계
           
-          AWS EKS, RDS, ALB 등을 활용하여 서비스 환경 구축 및 운영
+          AWS EKS, RDS, ALB 등을 활용하여 가용성 높은 서비스 환경 구축, Datadog을 활용한 인프라 및 서비스 모니터링
           
+          100대의 물리서버와 500대의 가상서버를 운영, ansible을 이용해 설정 관리 및 작업 관리
+          
+          XCP-ng(xenserver를 포크한 oss)를 이용한 가상서버 운영하며 GPU passthrough, SR-IOV 등 기술을 연구하고 적용          
           
           
           Teck Stack : **AWS**, **Kubernetes**, **Xen**, **가상화**, **Ansible** 
